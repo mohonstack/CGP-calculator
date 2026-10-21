@@ -51,7 +51,7 @@ export function Logo({
       <div className={cn("flex flex-col items-center", className)}>
         <LogoMark className={cn("h-16 w-16 md:h-20 md:w-20", markClassName)} />
         <div className="logo-word mt-3 text-center text-4xl md:text-6xl">
-          Calculatea Your
+          Calculate Your
           <br />
           CGPA
         </div>
