@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Inter, Archivo } from "next/font/google";
-// @ts-expect-error Next.js handles global CSS imports at build time.
+// Side-effect import of the global stylesheet. Next.js compiles this at build
+// time and the `*.css` module is declared in types/css.d.ts, so no
+// expect-error suppression is needed (and an unused one breaks the build).
 import "./globals.css";
 import { SiteFooter, SiteHeader } from "@/components/SiteHeader";
 

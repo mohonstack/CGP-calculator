@@ -1,6 +1,6 @@
 # Calculatea Your CGPA
 
-A Students friendly **GPA / CGPA calculator** built with **Next.js (App Router)**, **React**, **TypeScript** and **Tailwind CSS v4**.
+A **responsive GPA / CGPA calculator** built with **Next.js**, **React**, **TypeScript** and **Tailwind CSS v4**. Calculate SGPA and cumulative CGPA with editable subjects, credit-based grading, and localStorage result tracking.
 
 **Calculatea Your CGPA** is a fast, privacy-first web app that turns a marksheet into an
 instant SGPA and a weighted cumulative CGPA. Pick a year and semester, the subject list
@@ -159,7 +159,8 @@ npm run dev      # http://localhost:3000
 ```bash
 npm run build    # production build
 npm start        # serve the production build
-npm run lint     # lint the project
+npm run lint     # lint the project (ESLint, flat config)
+npm run typecheck # TypeScript check without emitting
 ```
 
 ---
@@ -188,6 +189,7 @@ lib/
   calc.ts             # SGPA / CGPA math
   store.ts            # localStorage persistence
   utils.ts            # class-name helper
+eslint.config.mjs     # ESLint flat config (next/core-web-vitals + next/typescript)
 ```
 
 ---
