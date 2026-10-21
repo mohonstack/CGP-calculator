@@ -2,7 +2,7 @@ import { cn } from "@/lib/utils";
 
 /**
  * The "%" mark: a ring holding a plus, a ring holding a minus and a scissor
- * blade running through both — the JNTUH GPA Calc identity.
+ * blade running through both — the original GPA Calc identity.
  */
 export function LogoMark({
   className,

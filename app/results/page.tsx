@@ -4,7 +4,7 @@ import { LogoWatermark } from "@/components/Logo";
 export const metadata = {
   title: "Results — Calculatea Your CGPA",
   description:
-    "Your semester wise GPA breakdown and cumulative CGPA for JNTUH affiliated colleges.",
+    "Your semester wise GPA breakdown and cumulative CGPA for engineering students.",
 };
 
 export default function ResultsPage() {

@@ -5,7 +5,7 @@ import { GRADES } from "@/lib/grades";
 export const metadata = {
   title: "How it works — Calculatea Your CGPA",
   description:
-    "How the JNTUH grade point scale, SGPA and CGPA are calculated — explained in four simple steps.",
+    "How the 4.00 grade point scale, SGPA and CGPA are calculated — explained in four simple steps.",
 };
 
 const STEPS = [

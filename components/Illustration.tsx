@@ -1,6 +1,6 @@
 /**
  * Flat illustration: a team presenting a growth chart — mirrors the hero
- * artwork of the original JNTUH GPA Calc design.
+ * artwork of the original GPA Calc design.
  */
 export function Illustration({ className }: { className?: string }) {
   const ink = "#111111";

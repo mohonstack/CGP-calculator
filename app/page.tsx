@@ -78,7 +78,7 @@ export default function HomePage() {
           {[
             { href: "/calc-gpa", label: "Calculate semester GPA", hint: "Enter subject wise grades" },
             { href: "/results", label: "View your CGPA", hint: "Semester wise breakdown" },
-            { href: "/result-links", label: "Result links", hint: "Official JNTUH result pages" },
+            { href: "/result-links", label: "Result links", hint: "Official exam result pages" },
             { href: "/how-it-works", label: "How it works", hint: "Formula explained" },
           ].map((link) => (
             <Link
