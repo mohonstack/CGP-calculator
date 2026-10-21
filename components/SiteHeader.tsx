@@ -24,7 +24,9 @@ export function SiteHeader() {
         <nav className="flex items-center gap-1 sm:gap-2">
           {NAV.map((item) => {
             const active =
-              item.href === "/" ? pathname === "/" : pathname.startsWith(item.href);
+              item.href === "/"
+                ? pathname === "/"
+                : pathname.startsWith(item.href);
             return (
               <Link
                 key={item.href}
@@ -52,7 +54,7 @@ export function SiteFooter() {
       <div className="mx-auto flex max-w-6xl flex-col items-center gap-3 px-4 py-8 text-center sm:px-6">
         <Logo markClassName="h-6 w-6" />
         <p className="max-w-md text-sm text-ink-soft">
-          Calculatea Your CGPA — a student friendly GPA / CGPA calculator built
+          Calculate Your CGPA — a student friendly GPA / CGPA calculator built
           for all Insttitute.
         </p>
         <div className="flex flex-wrap items-center justify-center gap-x-5 gap-y-2 text-sm">
